@@ -1,0 +1,17 @@
+inputs: 1. plaintext, 2. key of shifts
+output: ciphertext
+
+get command line argument from user for key
+check if it is a positive integer digit (go back to step 4 if not)
+    output an error message if not valid
+convert string to int
+
+get plaintext from user as string
+shift each character by key
+wrap back around from z to a if crossing z
+if neither uppercase nor lowercase keep character the same
+run until the end of the string
+
+note:
+does not shift punctuations
+caps rules stay the same (i.e lowercase letter stays lowercase and uppercase stays uppercase)
