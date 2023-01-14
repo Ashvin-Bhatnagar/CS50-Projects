@@ -1,0 +1,5 @@
+get input from user
+check if input is between 1 to 8 
+go back to 1 if not between
+print 1 to 'height' hashes
+for x, print x hash then a new line
